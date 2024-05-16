@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 3%;
+  background-color: black;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: auto;
+}
+nav {
+  height: 10vh;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  vertical-align: auto;
+  vertical-align: middle;
+  line-height: 3em;
+}
+
+li {
+  color: white;
+  margin-right: 25px;
+
+  font-size: 1.5em;
+}
+.description {
+  height: 80vh;
+  display: flex;
+
+  justify-content: center;
+}
+.main-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+}
+.main-title {
+  font-size: 7em;
+  color: white;
+}
+.main-description {
+  color: white;
+  font-size: 1.5em;
+  padding-top: 15px;
+
+  text-align: center;
+}
+.cards {
+  display: flex;
+  height: 200vh;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.first-card {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: fit-content;
+}
+.first-card img {
+  width: 100%;
+  height: 15rem;
+}
+.second-card img {
+  width: 100%;
+  height: 15rem;
+}
+.third-card img {
+  width: 100%;
+  height: 15rem;
+}
+.forth-card img {
+  width: 100%;
+  height: 15rem;
+}
+.fifth-card img {
+  width: 100%;
+  height: 15rem;
+}
+.sixth-card img {
+  width: 100%;
+  height: 15rem;
+}
+h3 {
+  font-size: 1.5em;
+  padding: 20px 0px 20px 0;
+  text-align: center;
+}
+.second-card {
+  display: flex;
+  flex-direction: column;
+
+  width: 30vw;
+
+  height: fit-content;
+}
+
+.third-card {
+  display: flex;
+  flex-direction: column;
+
+  width: 30vw;
+
+  height: fit-content;
+}
+.forth-card {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30vw;
+}
+.fifth-card {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30vw;
+}
+.sixth-card {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30vw;
+}
+.seventh-card {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30vw;
+}
+
+.eight-card {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30vw;
+}
+.ninth-card {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 30vw;
+}
+.after-cards {
+  display: flex;
+  height: 100vh;
+  background-color: white;
+}
+.preset-title {
+  width: fit-content;
+}
+.preset-title {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.pages {
+  margin-top: 20px;
+  width: 20%;
+  height: 6%;
+  background-color: white;
+}
